@@ -51,6 +51,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
 import { OverlayModule } from '@angular/cdk/overlay';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
+
 
 
 @NgModule({
@@ -58,7 +60,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
     AppComponent,
     NavBarComponent,
     AddRestaurantComponent,
-    RestaurantsListComponent
+    RestaurantsListComponent,
   ],
   imports: [
     BrowserModule,
@@ -71,6 +73,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
     MatIconModule,
     MatListModule,
     MatTabsModule,
+    Ng2SmartTableModule,
   ],
 
   exports: [
@@ -118,11 +121,48 @@ import { OverlayModule } from '@angular/cdk/overlay';
     OverlayModule,
     PortalModule,
     ScrollingModule,
+    CdkTableModule,
+    CdkTreeModule,
+    DragDropModule,
+    MatAutocompleteModule,
+    MatBadgeModule,
+    MatBottomSheetModule,
+    MatButtonModule,
+    MatButtonToggleModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatChipsModule,
+    MatStepperModule,
+    MatDatepickerModule,
+    MatDialogModule,
+    MatDividerModule,
+    MatExpansionModule,
+    MatGridListModule,
+    MatIconModule,
+    MatInputModule,
+    MatListModule,
+    MatMenuModule,
+    MatNativeDateModule,
+    MatPaginatorModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatRadioModule,
+    MatRippleModule,
+    MatSelectModule,
+    MatSidenavModule,
+    MatSliderModule,
+    MatSlideToggleModule,
+    MatSnackBarModule,
+    MatSortModule,
+    MatTableModule,
+    MatTabsModule,
+    MatToolbarModule,
+    MatTooltipModule,
+    MatTreeModule,
+    ScrollingModule,
   ],
 
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule {
- 
-}
+export class AppModule {}
