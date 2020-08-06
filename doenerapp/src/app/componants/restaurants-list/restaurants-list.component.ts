@@ -40,6 +40,29 @@ export class RestaurantsListComponent {
       },
     },
   };
+  settings2 = {
+    columns: {
+      id: {
+      title: 'ID',
+      },
+      nameDesImbisses: {
+        title: 'Name des Imbisses',
+      },
+      address: {
+        title: 'Adresse',
+      },
+      email: {
+        title: 'Email',
+      },
+      phoneNummer: {
+        title: 'Telefone Nummer',
+      },
+    },
+  };
+
+
+
+
   data = [
     {
       id: 1,
@@ -72,6 +95,44 @@ export class RestaurantsListComponent {
     {
       id: 5,
       nameDesRestaurants: 'test 5',
+      address: 'Bothel',
+      email: 'test5@landdata.de',
+      phoneNummer: '123456789',
+    },
+  ];
+
+  data2 = [
+    {
+      id: 1,
+      nameDesImbisses: 'test 1',
+      address: 'Vissel',
+      email: 'test1@landdata.de',
+      phoneNummer: '123456789',
+    },
+    {
+      id: 2,
+      nameDesImbisses: 'test 2',
+      address: 'Scheeßel',
+      email: 'test2@landdata.de',
+      phoneNummer: '123456789',
+    },
+    {
+      id: 3,
+      nameDesImbisses: 'test 3',
+      address: 'Rotenburg',
+      email: 'test3@landdata.de',
+      phoneNummer: '123456789',
+    },
+    {
+      id: 4,
+      nameDesImbisses: 'test 4',
+      address: 'Bremen',
+      email: 'test4@landdata.de',
+      phoneNummer: '123456789',
+    },
+    {
+      id: 5,
+      nameDesImbisses: 'test 5',
       address: 'Bothel',
       email: 'test5@landdata.de',
       phoneNummer: '123456789',
